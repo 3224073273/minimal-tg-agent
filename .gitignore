@@ -1,0 +1,23 @@
+﻿# 凭据与真实环境配置
+.env
+*.pem
+*.key
+
+# 运行期状态与记忆底片（彻底隔离）
+memories/
+history.json
+memo.md
+memo.md.bak
+persona_evolution.txt
+persona_evolution.txt.bak
+last_seen.json
+*.log
+*.bak
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+*.exe
